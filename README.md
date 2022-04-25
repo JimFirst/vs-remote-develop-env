@@ -1,2 +1,2 @@
 # vs-romote-develop-env
-利用docker及vscode remote-container制作原创开发环境
+利用docker及vscode remote-container制作前端开发环境
