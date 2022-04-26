@@ -1,24 +1,7 @@
-# vue3-test
+### Step
 
-## Project setup
-```
-pnpm install
-```
+1. 安装docker
 
-### Compiles and hot-reloads for development
-```
-pnpm run serve
-```
+2. vs code 安装 remote-container
 
-### Compiles and minifies for production
-```
-pnpm run build
-```
-
-### Lints and fixes files
-```
-pnpm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+3. cmd + shift + p, reopen in container

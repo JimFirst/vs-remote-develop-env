@@ -1,9 +1,6 @@
 {
   "name": "front-dev-env",
-  "build": {
-    "dockerfile": "Dockerfile",
-    "context": ".",
-  },
+  "image": "front-dev-env:v1.0.0",
   // 添加插件的id，点开插件右上角即是
   "extensions": ["dbaeumer.vscode-eslint", "formulahendry.auto-close-tag", "formulahendry.auto-rename-tag", "hookyqr.beautify",
   "ss.element-ui-snippets", "abusaidm.html-snippets", "xabikos.javascriptsnippets", "octref.vetur", "hollowtree.vue-snippets"],
