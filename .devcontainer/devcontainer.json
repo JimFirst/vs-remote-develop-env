@@ -1,17 +1,15 @@
 {
   "name": "front-dev-env",
   "build": {
-    "dockerfile": "Dockerfile"
+    "dockerfile": "Dockerfile",
+    "context": ".",
   },
   // 添加插件的id，点开插件右上角即是
-  "extensions": ["dbaeumer.vscode-eslint"],
-  // Use 'portsAttributes' to set default properties for specific forwarded ports. More info: https://code.visualstudio.com/docs/remote/devcontainerjson-reference.
-	"portsAttributes": {
-		"3000": {
-			"label": "Hello Remote World",
-			"onAutoForward": "notify"
-		}
-	},
+  "extensions": ["dbaeumer.vscode-eslint", "formulahendry.auto-close-tag", "formulahendry.auto-rename-tag", "hookyqr.beautify",
+  "ss.element-ui-snippets", "abusaidm.html-snippets", "xabikos.javascriptsnippets", "octref.vetur", "hollowtree.vue-snippets"],
+	"forwardPorts": [
+		8080
+	],
   // Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "npm install",
 }
