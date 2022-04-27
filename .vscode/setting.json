@@ -1,5 +1,0 @@
-{
-  "eslint.options": {
-      "configFile": "${workspaceFolder}/vue3-test/babel.config.js"
-  }
-}
